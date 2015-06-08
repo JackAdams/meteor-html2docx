@@ -7,8 +7,8 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use(['templating','jquery','reactive-var'],'client');
   api.versionsFrom('1.1.0.2');
+  api.use(['templating','jquery','reactive-var'],'client');
   api.addFiles(['html2docx.html','html2docx.js'],'client');
 });
 
