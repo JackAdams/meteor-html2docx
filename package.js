@@ -1,12 +1,8 @@
 Package.describe({
   name: 'babrahams:html2docx',
-  version: '0.0.1',
-  // Brief, one-line summary of the package.
-  summary: '',
-  // URL to the Git repository containing the source code for this package.
-  git: '',
-  // By default, Meteor will default to using README.md for documentation.
-  // To avoid submitting documentation, set this field to null.
+  version: '0.1.0',
+  summary: 'Turns HTML into a docx file in the client',
+  git: 'https://github.com/JackAdams/meteor-html2docx',
   documentation: 'README.md'
 });
 

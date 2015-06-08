@@ -35,5 +35,5 @@ When initiating the widget, use these parameters to configure it:
 
 Application styles will not appear in the `.docx` file unless they're inline styles or explicitly defined using the `css` parameter.
 
-This is not going to work in all browsers.  See [this post](http://www.effectiveui.com/blog/2015/02/23/generating-a-downloadable-word-document-in-the-browser/) (from which inspiration for this package was drawn), and note that this package only uses the download attribute of the `<a>` tag.  
+This is not going to work in all browsers.  See [this post](http://www.effectiveui.com/blog/2015/02/23/generating-a-downloadable-word-document-in-the-browser/) (from which inspiration for this package was drawn), and note that this package only uses the `download` attribute of the `<a>` tag.  
 
