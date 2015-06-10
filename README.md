@@ -31,9 +31,12 @@ When initiating the widget, use these parameters to configure it:
 
 `filename="my_word_doc"` changes the name of the downloaded file (default is "export")
 
+`includeStylesheets=false` means there will be no attempt to include css from the application's stylesheets (default is `true`)
+
 #### Warning
 
-Application styles will not appear in the `.docx` file unless they're inline styles or explicitly defined using the `css` parameter.
+This is not going to work in all browsers.  See [this post](http://www.effectiveui.com/blog/2015/02/23/generating-a-downloadable-word-document-in-the-browser/) (from which inspiration for this package was drawn), and note that this package only uses the `download` attribute of the `<a>` tag. This will probably only work with recent versions of Chrome and Firefox.
 
-This is not going to work in all browsers.  See [this post](http://www.effectiveui.com/blog/2015/02/23/generating-a-downloadable-word-document-in-the-browser/) (from which inspiration for this package was drawn), and note that this package only uses the `download` attribute of the `<a>` tag.  
+Application styles will not appear in the `.docx` file as they appear in the app. To quote from the post above:
 
+"Word supports a small, outdated subset of CSS. Properties such as `background-color`, `color`, `font-size`, `font-weight`, `text-align`, `margin`, and `padding` are supported. CSS3 selectors, as well as properties like float and position don’t work. You can give elements `class` and `id` attributes to target with a stylesheet."
