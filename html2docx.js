@@ -33,6 +33,9 @@ html2docx.generateStyle = function () {
 Template.html2docx.helpers({
   dataUri : function () {
 	return Template.instance().dataUri.get();  
+  },
+  filename : function () {
+	return this.filename || document.title || '';  
   }
 });
 
