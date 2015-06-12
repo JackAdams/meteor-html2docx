@@ -27,6 +27,8 @@ When initiating the widget, use these parameters to configure it:
 
 `linkStyle="text-decoration: none;"` puts a custom style attribute on the link
 
+`linkTitle="Download as Word document"` puts a title attribute on the link
+
 `css="h1 { color: red; }"` adds a custom set of css rules to the `.docx` file that is generated
 
 `filename="my_word_doc"` changes the name of the downloaded file (default is "export")
