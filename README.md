@@ -35,6 +35,8 @@ When initiating the widget, use these parameters to configure it:
 
 `includeStylesheets=false` means there will be no attempt to include css from the application's stylesheets (default is `true`)
 
+`useDocNotDocx=true` produces `.doc` file instead of a `.docx` file (added because Word 2016 won't open html files with extension changed to `.docx` but it will open `.doc` files made this way)
+
 #### Warning
 
 This is not going to work in all browsers.  See [this post](http://www.effectiveui.com/blog/2015/02/23/generating-a-downloadable-word-document-in-the-browser/) (from which inspiration for this package was drawn), and note that this package only uses the `download` attribute of the `<a>` tag. This will probably only work with recent versions of Chrome and Firefox.

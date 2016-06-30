@@ -1,6 +1,6 @@
 Package.describe({
   name: 'babrahams:html2docx',
-  version: '0.1.5',
+  version: '0.2.0',
   summary: 'Turns HTML into a docx file in the client',
   git: 'https://github.com/JackAdams/meteor-html2docx',
   documentation: 'README.md'
